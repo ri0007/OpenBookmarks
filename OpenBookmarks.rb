@@ -49,11 +49,10 @@ def join_bookmarks_url(bookmarks)
 end
 
 show_help if ARGV == []
-
 option = nil
 show_keys = []
-yaml = YAML.load_file('./Bookmarks.yml')
-bookmarks_file_path = File.absolute_path './Bookmarks.yml'
+bookmarks_file_path = File.expand_path(File.dirname(__FILE__)) + '/Bookmarks.yml'
+yaml = YAML.load_file(bookmarks_file_path)
 bookmarks = flatten_hash_from(yaml)
 
 ARGV.each do |argument|
