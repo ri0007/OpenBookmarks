@@ -1,0 +1,20 @@
+work:
+  div:
+    techcamp: "https://tech-camp.in/"
+  google:
+    search: "https://www.google.com/"
+    mail: "https://mail.google.com/"
+    drive: "https://drive.google.com/"
+    calendar: "https://calendar.google.com/"
+
+div: "http://di-v.co.jp"
+
+private:
+  yahoo:
+    search: "https://www.yahoo.co.jp"
+    mail: "https://mail.yahoo.co.jp"
+  news:
+    applelinkage: "http://www.applelinkage.com"
+    lifehacker: "http://www.lifehacker.jp"
+    yahoonews: "https://news.yahoo.co.jp"
+    technote: "https://tech-camp.in/note/"
