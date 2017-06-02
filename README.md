@@ -3,12 +3,12 @@ yamlで記述されたブックマークを開けるプログラム
 ## Install
 `~/bin`にインストールする場合  
 ```bash
-cd ~   
-git clone https://github.com/ri0007/OpenBookmarks/  
-mkdir bin  
-mv ~/OpenBookmarks/* ~/bin  
-echo 'alias obm="ruby ~/bin/OpenBookmarks.rb"' >> ~/.bash_profile 
-source ~/.bash_profile  
+$ cd ~
+$ git clone https://github.com/ri0007/OpenBookmarks/
+$ mkdir bin
+$ mv ~/OpenBookmarks/* ~/bin
+$ echo 'alias obm="ruby ~/bin/OpenBookmarks.rb"' >> ~/.bash_profile
+$ source ~/.bash_profile
 ```
 ## Usege
 Bookmarks.ymlに記述する
