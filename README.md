@@ -26,20 +26,20 @@ work:
 
 コマンドを実行する
 ```bash
-obm apple
+$ obm apple
 # => ブラウザで"http://www.apple.com/"が開かれる
-obm work
+$ obm work
 # => ブラウザでwork以下のURLが全て開かれる
 ```
 
 ## Options
 ```bash
-obm -a
+$ obm -a
 # => ブラウザでBookmarks.ymlのURL全てが開かれる
-obm -l
+$ obm -l
 # => Bookmarks.ymlの内容が表示される
-obm -c apple
+$ obm -c apple
 # => Chromeで"http://www.apple.com/"が開かれる
-obm -s apple
+$ obm -s apple
 # => Safariで"http://www.apple.com/"が開かれる
 ```
