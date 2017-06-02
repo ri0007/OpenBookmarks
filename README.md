@@ -29,7 +29,11 @@ work:
 $ obm apple
 # => ブラウザで"http://www.apple.com/"が開かれる
 $ obm work
-# => ブラウザでwork以下のURLが全て開かれる
+# => ブラウザでキーがwork以下のURLが全て開かれる
+$ obm google
+# => ブラウザでキーがgoogle以下のURLが全て開かれる
+$ obm work:google
+# => ブラウザでwork:google以下のURLが全て開かれる
 ```
 
 ## Options
